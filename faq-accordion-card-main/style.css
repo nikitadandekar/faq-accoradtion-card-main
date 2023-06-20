@@ -1,0 +1,41 @@
+body {
+  background-color: hsl(273, 75%, 66%);
+}
+.box {
+  background-color: white;
+  margin: auto;
+  padding-top: 20px;
+  border-radius: 25px;
+  width: 370px;
+  padding: 20px;
+}
+.box h1 {
+  padding-top: 20px;
+  text-align: center;
+  font-weight: 700;
+}
+.accordion {
+  border-bottom: 1.5px solid green;
+}
+.discription-hidden {
+  display: none;
+}
+.women img {
+  width: 10%;
+  position: relative;
+  top: 60px;
+  left: 900px;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 786px) {
+  .box h1 {
+    color: blue;
+  }
+  .title h3 {
+    color: brown;
+  }
+}
